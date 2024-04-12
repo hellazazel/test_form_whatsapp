@@ -44,7 +44,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   e.preventDefault();
 
   //ВВЕДИТЕ ДЕЙСТВУЮЩИЙ НОМЕР WHATSAPP:
-  const phone__number = "+7-904-084-88-52";
+  const phone__number = "+7-921-978-61-59";
 
   const client = document.querySelector("#client").value; // переменная 
   const date = document.querySelector("#date").value;
