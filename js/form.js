@@ -25,7 +25,8 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${time}%0A
 		*Сообщение*%0A
 		${service}
-    *Схемы, фото или рисунки мебели*%0A`;
+    *Схемы, фото или рисунки мебели*%0A
+    ${file}`;
 
   if (client === "" || date === "" || time === "") {
     response.classList.add("fail");
