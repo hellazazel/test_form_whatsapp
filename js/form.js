@@ -9,7 +9,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   const time = document.querySelector("#time").value;
   const service = document.querySelector("#service").value;
   const response = document.querySelector("#response");
-  const file = document.querySelector("#file");
+  const file = document.querySelector("#file").value;
 
   response.classList.remove("fail");
   response.classList.remove("send");
@@ -24,9 +24,9 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*Укажите желаемое время сборки мебели*%0A
 		${time}%0A
 		*Сообщение*%0A
-		${service}
+		${service}%0A
     *Схемы, фото или рисунки мебели*%0A
-    ${file}`;
+    ${file}%0A`;
 
   if (client === "" || date === "" || time === "") {
     response.classList.add("fail");
