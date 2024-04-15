@@ -8,8 +8,8 @@ document.querySelector("#submit").addEventListener("click", e => {
   const date = document.querySelector("#date").value;
   const time = document.querySelector("#time").value;
   const service = document.querySelector("#service").value;
-  const response = document.querySelector("#response");
   const file = document.querySelector("#file").value;
+  const response = document.querySelector("#response");
 
   response.classList.remove("fail");
   response.classList.remove("send");
