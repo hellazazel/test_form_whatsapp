@@ -4,9 +4,6 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image: url(fondo.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
 }
 .form {
   width: 500px;
@@ -110,4 +107,11 @@ body {
 }
 #response.send {
   color: green;
+}
+
+.title {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0 auto
 }
