@@ -19,7 +19,7 @@ document.querySelector("#submit").addEventListener("click", (e) => {
   %0A*Как вас зовут ?*%0A${master}
   %0A*Сколько вам лет*%0A ${old}
   %0A*У вас есть автомобиль*%0A ${car}
-  %0A*Ваш опыт работы ${experience}
+  %0A*Ваш опыт работы*%0A${experience}
   %0A*Желаемая зарплата*%0A ${cash}`;
 
   if (master === "" || old === "" || car === "" || experience === "") {
