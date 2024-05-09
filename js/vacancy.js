@@ -1,10 +1,10 @@
-document.querySelector("#submit").addEventListener("click", e => {
+document.querySelector("#submit").addEventListener("click", (e) => {
   e.preventDefault();
 
   //ВВЕДИТЕ ДЕЙСТВУЮЩИЙ НОМЕР WHATSAPP:
   const phone__number = "+7-921-978-61-59";
 
-  const master = document.querySelector("#master").value; // переменная 
+  const master = document.querySelector("#master").value; // переменная
   const old = document.querySelector("#old").value;
   const car = document.querySelector("#car").value;
   const experience = document.querySelector("#experience").value;
@@ -15,7 +15,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   response.classList.remove("send");
 
   const url = `https://api.whatsapp.com/send?phone=
-  ${phone__number}&text=*Вакансия сборщика мебели*%0A*Резюме*%0A
+  ${phone__number}&text=*Резюме*%0A
   %0A*Как вас зовут ?*%0A${master}
   %0A*Сколько вам лет*%0A ${old}
   %0A*У вас есть автомобиль*%0A ${car}
